@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+docker run -it --rm --name docker-slides \
+    -v "$PWD:/home/alpine" docker-slides \
+    mdslides "$@"
